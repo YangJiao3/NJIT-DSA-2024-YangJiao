@@ -1,5 +1,6 @@
 package oy.tol.tra;
 
+
 public class Algorithmus {
     public static<T>void reverse(T[] array){
         int i = 0;
@@ -10,6 +11,7 @@ public class Algorithmus {
             j--;
         }
     }
+    
 
     public static <T extends Comparable<T>> void sort(T[] array) {
         int n = array.length;

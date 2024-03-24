@@ -5,6 +5,7 @@ package oy.tol.tra;
  * misbehaving algorithm for reversing the array.
  */
 public class Grades {
+   
 
    private Integer [] grades = null;
 
@@ -18,7 +19,7 @@ public class Grades {
          this.grades[counter] = grades[counter];
       }
    }
-
+   
    /**
     * The method to reverse the internal Java int array.
     */
