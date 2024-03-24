@@ -6,7 +6,6 @@ package oy.tol.tra;
  */
 public class Grades {
    
-
    private Integer [] grades = null;
 
    /**

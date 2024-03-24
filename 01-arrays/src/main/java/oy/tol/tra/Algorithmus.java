@@ -12,6 +12,7 @@ public class Algorithmus {
         }
     }
     
+    
 
     public static <T extends Comparable<T>> void sort(T[] array) {
         int n = array.length;
