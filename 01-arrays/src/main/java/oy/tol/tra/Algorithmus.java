@@ -18,6 +18,7 @@ public class Algorithmus {
                 if (array[j].compareTo(array[j + 1]) > 0) {
                     swap(array, j, j + 1);
 
+
                 }
     }
 
