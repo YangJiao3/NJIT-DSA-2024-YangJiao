@@ -3,7 +3,7 @@ package oy.tol.tra;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class ArrayUtils {
+public class   ArrayUtils {
    /**
      * Generates an array with specified size and fills it with randomly permutated numbers.
      * 
