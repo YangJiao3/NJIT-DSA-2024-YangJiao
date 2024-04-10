@@ -10,7 +10,7 @@ class TreeNode<K extends Comparable<K>, V> {
    static int longestCollisionChain = 0;
    // OPTIONAL Handling collisions with a linked list in the tree node.
    LinkedListImplementation<Pair<K,V>> list = null;
-   
+
    // Needed for searching by key; value is not then needed.
    TreeNode(K key) throws NullPointerException {
       if (null == key)
@@ -45,7 +45,7 @@ class TreeNode<K extends Comparable<K>, V> {
                   return list.get(index).getValue();
                }
             }
-            // END OPTIONAL 
+            // END OPTIONAL
          }
       } else if (toFindHash < this.hash) {
          if (null != left) {
@@ -112,7 +112,7 @@ class TreeNode<K extends Comparable<K>, V> {
       visitor.visit(this);
    }
 
-   @Override 
+   @Override
    public boolean equals(Object obj) {
       if (this == obj) {
          return true;
