@@ -76,3 +76,4 @@ public class DailyTasks {
       System.out.println("Number of tasks in the queue: " + dailyTaskQueue.size());
    }
 }
+

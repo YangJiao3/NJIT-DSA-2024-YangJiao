@@ -1,5 +1,6 @@
 package oy.tol.tra;
 
+
 /**
  * Exception thrown when using an empty queue fails.
  */
