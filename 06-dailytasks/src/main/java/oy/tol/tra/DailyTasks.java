@@ -29,6 +29,7 @@ public class DailyTasks {
 
    private void run() {
       try {
+         dailyTaskQueue = new QueueImplementation<>(10);
          // TODO:
          // 1. create a queue (to the member variable!) for daily tasks, which are strings.
          
