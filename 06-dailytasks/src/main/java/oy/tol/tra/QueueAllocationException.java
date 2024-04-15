@@ -1,6 +1,7 @@
 package oy.tol.tra;
 
 /**
+ *
  * Exception thrown when allocation in the queue fails.
  */
 public class QueueAllocationException extends RuntimeException {
